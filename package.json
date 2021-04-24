@@ -1,0 +1,20 @@
+{
+  "name": "tmdb-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "keywords": [],
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "http-proxy-middleware": "^1.2.0"
+  }
+}
