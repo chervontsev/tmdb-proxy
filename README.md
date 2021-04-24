@@ -8,7 +8,7 @@ Note that most of the links below will be visible for TMDB users only.
 
 ### Issue:
 
-When using "The Movie Database API", at some point you might get an error when all requests to thr TMDB API just hang or timeout with an message:
+When using "The Movie Database API", at some point you might get an error when all requests to the TMDB API just hang or timeout with an message:
 
 ```
 Error: Network Error
@@ -40,7 +40,7 @@ This is all pretty straight-forward:
 
 Note: `Procfile` in the repo is for Heroku setup. So if you choose some other provider, feel free to drop it or rewrite it :)
 
-Note: In this solution your API Key is not persisted or cached in the proxy and just goes as a query parameter.
+Note: In this solution your API Key is not persisted or cached in the proxy and just goes through with the endpoint as a query parameter.
 
 Note: Note that free tiers of cloud providers usually have some limitations for capacity and calls. So be sure to check on this with their documentations and user plans.
 
@@ -58,9 +58,9 @@ Feel free to setup any additional limitations, enhancements or other settings of
 
 ### Dependencies:
 
-ExpressJS - Node.js web application framework (https://expressjs.com)
-Helmet - base security for Express apps (https://www.npmjs.com/package/helmet)
-Http proxy middleware (https://www.npmjs.com/package/http-proxy-middleware)
+* ExpressJS - Node.js web application framework (https://expressjs.com)
+* Helmet - base security for Express apps (https://www.npmjs.com/package/helmet)
+* Http proxy middleware (https://www.npmjs.com/package/http-proxy-middleware)
 
 Check out their official docs to know what they do :)
 
